@@ -1,0 +1,2 @@
+Web application:
+- upload own photo and get some classification results?

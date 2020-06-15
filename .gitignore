@@ -1,1 +1,3 @@
 *.h5
+images_train
+images_validation
