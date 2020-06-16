@@ -13,6 +13,9 @@ from data import train_generator, validation_generator
 
 validation_data = pd.read_csv('validation.csv')
 
+# Testing
+# validation_data = validation_data.head(100)
+
 checkpoint_path = "model_checkpoints/cp-0010.ckpt"
 resnet_weights_path = 'resnet50_weights_tf_dim_ordering_tf_kernels_notop.h5'
 num_classes = 2
@@ -36,5 +39,5 @@ predictions_df = pd.DataFrame({
 
 predictions_df.to_csv('predictions.csv')
 
-with open('predictions.txt', 'w') as file:
-    print(predictions_df, file=file)
+# with open('predictions.txt', 'w') as file:
+#     print(predictions_df, file=file)
