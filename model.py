@@ -42,7 +42,7 @@ model.save_weights(checkpoint_path.format(epoch=0))
 model.fit_generator(
         train_generator,
         steps_per_epoch=10,
-        epochs=3,
+        epochs=10,
         validation_data=validation_generator,
         callbacks=[cp_callback],
         validation_steps=1)

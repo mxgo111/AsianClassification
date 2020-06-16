@@ -19,7 +19,7 @@ train_generator = data_generator.flow_from_dataframe(
     x_col='filename',
     y_col='category',
     target_size=(image_size, image_size),
-    batch_size=24,
+    batch_size=5,
     class_mode='categorical',
     shuffle=False)
 
@@ -29,6 +29,6 @@ validation_generator = data_generator.flow_from_dataframe(
     x_col='filename',
     y_col='category',
     target_size=(image_size, image_size),
-    batch_size=24,
+    batch_size=5,
     class_mode='categorical',
     shuffle=False)
