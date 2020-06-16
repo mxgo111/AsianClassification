@@ -1,11 +1,11 @@
 import sys, os
 import pandas as pd
 
-from tensorflow.python.keras.applications import ResNet50
+from tensorflow.python.keras.applications.resnet import ResNet50
 from tensorflow.python.keras.models import Sequential
 from tensorflow.python.keras.layers import Dense
 
-from tensorflow.python.keras.applications import ResNet50
+
 from tensorflow.python.keras.applications.resnet import preprocess_input
 from tensorflow.python.keras.preprocessing.image import ImageDataGenerator
 from tensorflow.python.keras.callbacks import ModelCheckpoint

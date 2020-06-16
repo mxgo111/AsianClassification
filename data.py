@@ -1,6 +1,6 @@
 import pandas as pd
 
-from tensorflow.keras.applications.resnet import preprocess_input
+from tensorflow.python.keras.applications.resnet import preprocess_input
 from tensorflow.python.keras.preprocessing.image import ImageDataGenerator
 
 df_train = pd.read_csv('train.csv')
