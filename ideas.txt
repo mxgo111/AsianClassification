@@ -1,2 +1,5 @@
-Web application:
+- web application?
 - upload own photo and get some classification results?
+- include test set! see how model is actually doing
+- add more data
+- add other people? or max, will, neither
