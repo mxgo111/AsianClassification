@@ -7,8 +7,10 @@ for filename in filenames:
     category = filename.split('.')[0]
     if category == 'dog':
         categories.append('\'1\'')
-    else:
+    elif category == 'cat':
         categories.append('\'0\'')
+    else:
+        continue
 
 df = pd.DataFrame({
     'filename': filenames,
@@ -23,8 +25,10 @@ for filename in filenames:
     category = filename.split('.')[0]
     if category == 'dog':
         categories.append('\'1\'')
-    else:
+    elif category == 'cat':
         categories.append('\'0\'')
+    else:
+        continue
 
 df = pd.DataFrame({
     'filename': filenames,
